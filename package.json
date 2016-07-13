@@ -1,5 +1,5 @@
 {
-  "name": "xss-polygiots",
+  "name": "xss-polyglots",
   "version": "1.0.0",
   "description": "A set of malicious payloads for XSS testing",
   "main": "index.js",
