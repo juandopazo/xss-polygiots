@@ -1,0 +1,19 @@
+{
+  "name": "xss-polygiots",
+  "version": "1.0.0",
+  "description": "A set of malicious payloads for XSS testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandopazo/xss-polygiots.git"
+  },
+  "author": "Juan Dopazo <jdopazo@yahoo-inc.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juandopazo/xss-polygiots/issues"
+  },
+  "homepage": "https://github.com/juandopazo/xss-polygiots#readme"
+}
