@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/juandopazo/xss-polygiots/issues"
   },
-  "homepage": "https://github.com/juandopazo/xss-polygiots#readme"
+  "homepage": "https://github.com/juandopazo/xss-polygiots#readme",
+  "dependencies": {
+    "he": "^1.1.1"
+  }
 }

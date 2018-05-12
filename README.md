@@ -1,6 +1,7 @@
 XSS Polyglots
 =============
 
+
 A polyglot is a payload that can be used in more than one context and still be treated as valid data.
 To learn more about polyglots check out [this talk](http://www.slideshare.net/MathiasKarlsson2/polyglot-payloads-in-practice-by-avlidienbrunn-at-hackpra).
 
@@ -28,7 +29,12 @@ function will be called as the first argument of the `getPayloads` function.
 ```js
 import getPayloads from 'xss-polyglots';
 
-let xssPayloads = getPayloads('myGlobalFunction');
+let xssPayloads = getPayloads({
+  fn: 'alert',
+  getPayloadMessage: n => {
+    return `XSSPayload${n}`;
+  }
+});
 ```
 
 License
